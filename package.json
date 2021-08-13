@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@directus/extension-sdk": "^9.0.0-rc.87",
+    "@tsconfig/recommended": "^1.0.1",
+    "typescript": "^4.3.5"
+  }
+}
