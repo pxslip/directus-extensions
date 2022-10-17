@@ -23,6 +23,9 @@ export default {
   },
   methods: {
     handleChange(value) {
+      if (!value) {
+        value = null;
+      }
       this.$emit('input', value);
       this.validates = this.regex?.test(value);
     },
